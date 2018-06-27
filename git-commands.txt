@@ -1,0 +1,8 @@
+# This file has been created on : June 27 2018 11:32 AM, to store git commands.
+# Created by: Shubham
+git init
+git add
+git --global user.email <email>
+git --global user.name <name>
+git commit -m <message>
+git commit -a -m <message> # stages and commits all the modified/deleted files.
