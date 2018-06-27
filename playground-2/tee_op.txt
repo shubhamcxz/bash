@@ -1,0 +1,1 @@
+Tee used for capturing input from the stdin and outout to any files or stdout. Great prog.

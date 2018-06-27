@@ -1,0 +1,298 @@
+#!/bin/bash
+# PROCESSES CHAPTER - 9
+# ps top jobs bg fg kill killall shutdown
+# to launch a program from shell such that it is immediately placed in the background, we append and  & at the end of the command.
+# e.g. xlogo &
+# A  number is returned which is the part of the shell feature calle "Job Control".
+# `jobs` command will list the jobs launched by our terminal.
+# bring a process to the foreground by using this: `fg %[job_num]`; job number also called "jobspec".
+# Ctrl-C == INT (Interrupt)
+# Ctrl-Z == TSTP (Terminal Stop)
+# kill pid or kill %jobspec
+#
+# default signal sent by kill is TERM (Terminate)
+# Other signals include: 1 HUP  2 INT  9 KILL  15 TERM  18 CONT  19 STOP
+
+#=======================================================================
+#
+# Shutting down the system:
+# halt poweroff reboot shutdown
+#
+#SOME MORE PROCESS RELATED COMMANDS
+#
+# pstree vmstat xload tload
+#
+#
+# CHAPTER 11 - THE ENVIRONMENT
+# printenv  -  Print part or all of the environment
+# set  -  Set shell options
+# export - Export environment to subsequently executed programs
+# alias - Create an alias for a command
+# 
+#
+# Two basic types of data: Environment Vars  and Shell vars.
+# 
+# use `alias` without arguments to see aliases.
+# 
+# 
+# 
+# See table 11-1: for list of environment variables
+# PATH -- A colon separated list of directories that are searched when we enter the name pf an executable program.
+# 
+# 
+# 
+# to define new environment variables or adding new directories to the path edit the `.profile` file (in Ubunut) or `.bash_profile` in certain other distros. FOR EVERYTHIN ELSE USE `.bashrc` . 
+# 
+# EDITORS: nano vi pico emac vim(vi improved)
+#       
+# CHAPTER 12: the vi EDITOR
+# ADD `alias vi='vim'` or echo "set nocp" >> ~/.vimrc   
+# vi is a MODAL EDITOR, it starts in the COMMAND MODE.  
+# i --INSERT-- mode
+# ESC -- exit --INSERT-- mode
+# :w -- write
+# :q -- exit
+#   
+# 
+# 
+# 
+# 
+# \[ BEGINNING OF TERMINAL EMULATOR   .....   \] END OF TERMINAL EMULATOR 
+# 
+# An ANSI escaoe code begins with octal `033`.
+# 
+# PS1=
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+
