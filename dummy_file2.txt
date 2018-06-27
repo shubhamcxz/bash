@@ -1,0 +1,14 @@
+bash-scripts
+command-history-2018-06-16-1730.txt
+command-history-2018-06-18-1153.txt
+command-history-2018-06-18-2340.txt
+dummy_file1.txt
+dummy_file2.txt
+git-commands.txt
+op_of_set.txt
+playground
+playground-2
+playground-3
+playground-5
+shell-session-Sat
+sys_vars.txt
