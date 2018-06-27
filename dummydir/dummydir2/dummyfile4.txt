@@ -1,2 +1,0 @@
-dummydir2
-dummyfile3.txt
