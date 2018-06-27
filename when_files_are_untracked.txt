@@ -1,0 +1,7 @@
+On branch master
+Untracked files:
+	dummy_file1.txt
+	dummy_file2.txt
+	when_files_are_untracked.txt
+
+nothing added to commit but untracked files present
