@@ -18,7 +18,7 @@
 # Shutting down the system:
 # halt poweroff reboot shutdown
 #
-#SOME MORE PROCESS RELATED COMMANDS1
+#SOME MORE PROCESS RELATED COMMANDS
 #
 # pstree vmstat xload tload
 #
@@ -30,7 +30,7 @@
 # alias - Create an alias for a command
 # 
 #
-#www.boardTwo basic types of data: Environment Vars  and Shell vars.
+# Two basic types of data: Environment Vars  and Shell vars.
 # 
 # use `alias` without arguments to see aliases.
 # 
