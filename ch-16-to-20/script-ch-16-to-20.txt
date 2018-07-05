@@ -1,0 +1,12 @@
+CHAPTER - 16 NETWORKING
+
+COMMANDS DISCUSSED:
+ping traceroute ip netstat ftp
+
+wget  ssh
+
+
+USAGE (Command Structure):
+
+ping google.com
+
