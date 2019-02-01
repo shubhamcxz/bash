@@ -1,0 +1,24 @@
+//The quick brown fox jumped over the lazy dog. TEXT ADDED IN  i MODE.
+#include<iostream>
+using namespace std;
+
+int fact (x){
+	if (x==0 || x==1){
+		return 1;
+	}
+	return x*fact(x-1);
+}
+
+int main () {
+	int x;
+	cout<<"Enter x:";
+	std::cin>>x;
+	cout<<x<<"! = "<<fact(x);
+	return 0;
+
+
+}
+
+
+
+//comments

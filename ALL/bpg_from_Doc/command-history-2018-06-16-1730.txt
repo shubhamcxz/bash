@@ -1,0 +1,400 @@
+    1  sudo ls
+    2  ls
+    3  htop
+    4  sudo apt-get install htop
+    5  htop
+    6  clear
+    7  /bin/bash
+    8  type /bin/bash
+    9  sudo apt-get install gedit
+   10  sudo swapoff -a
+   11  cd Desktop
+   12  ks
+   13  ls
+   14  cd bash-scripts
+   15  bash-script-01.sh
+   16  bash bash-script-01.sh
+   17  htop
+   18  ls
+   19  bash bash-script-01.sh
+   20  $\a
+   21  \a
+   22  echo $'\a'
+   23  echo $\a
+   24  echo $'\a'
+   25  echo $'bashe\b'
+   26  echo "bash$'\b'"
+   27  echo "bash$\b"
+   28  echo "bash\b"
+   29  echo $'\b'
+   30  echo $'\f'
+   31  echo $'\n'
+   32  echo $'\t'
+   33  echo $'\v'
+   34  echo $'\\'
+   35  echoS'\700'
+   36  echo $'\700'
+   37  echo $'\777'
+   38  echo $'\123'
+   39  echo $'\124'
+   40  echo $'\200'
+   41  echo $'\201'
+   42  echo $'\xFF'
+   43  echo $'\xFF'$'\u0001'
+   44  echo $'\b'$'\b'
+   45  echo $'\b'
+   46  echo $'\a'
+   47  echo $'\a'$'\a'
+   48  echo $'\cx'
+   49  echo $'\x45'
+   50  echo $'\a'
+   51  htop
+   52  df
+   53  bash terminology
+   54  cd Desktop
+   55  mkdir bash-playground
+   56  mv -r bash-scripts bash-playground
+   57  mv -v bash-scripts bash-playground
+   58  cd bash-playground
+   59  ls -al .
+   60  ls -Al .
+   61  ./bash-scropt-02.sh
+   62  cd bash-scripts
+   63  ./bash-script-02.sh
+   64  bash-script-02.sh
+   65  bash bash-script-02.sh
+   66  cd .
+   67  cd
+   68  cd -
+   69  cd /Desktop/bash-playground/bash-scripts
+   70  cd Desktop/bash-playground/bash-scripts
+   71  cd ..
+   72  ls
+   73  mkdir playground
+   74  ls
+   75  cd playground
+   76  mkdir dir1 dir2
+   77  cp /etc/passwd .
+   78  ls
+   79  ls -al
+   80  cp -v /etc/passwd .
+   81  cp -i /etc/passwd .
+   82  mv passwd fun
+   83  ls -Al
+   84  mv fun dir1
+   85  ls
+   86  ls dir1
+   87  mv dir1/fun dir2
+   88  ls
+   89  ls dir1
+   90  ls dir2
+   91  ls dir2/fun .
+   92  mv -v dir2/fun .
+   93  ls
+   94  ls -Alt
+   95  ls -Alt --reverse
+   96  mv fun dir1
+   97  mv dir1 dir2
+   98  ls 
+   99  ls dir2
+  100  ls dir2 dir2/dir1
+  101  mv dir2/dir1 .
+  102  mv dir1/fun .
+  103  ls
+  104  ln -v fun fun-hard
+  105  ls
+  106  ls -l
+  107  ln fun dir1/fun-hard
+  108  ln fun dir2/fun-hard
+  109  ls -l
+  110  ls -li
+  111  ln -s fun fun-sym
+  112  ls -l
+  113  ln -s ../fun dir1/fun-sym
+  114  ls
+  115  ls ./fun
+  116  ls .
+  117  ln -s ../fun dir2/fun-sym
+  118  ls -l dir1
+  119  ln -s dir1 dir1-sym
+  120  ls -l
+  121  ls -li
+  122  rm fun-hard
+  123  ls
+  124  ls -l
+  125  rm -i fun
+  126  ls -l
+  127  less fun-sym
+  128  rm fun-sym dir1-sym
+  129  ls -l
+  130  bash ../bash-scripts/bash-script-02.sh
+  131  clear
+  132  help cd
+  133  info bash
+  134  clear
+  135  apache2
+  136  sudo apt-get install apache2
+  137  ifconfig
+  138  sudo service apache2 start
+  139  ifconfig
+  140  mysql
+  141  sudo apt-get install mysql-server
+  142  mysql
+  143  help mysql
+  144  man mysql
+  145  mysql --help
+  146  apropos ufw
+  147  ufw --help
+  148  htop
+  149  sudo service apache2 stio
+  150  sudo service apache2 stop
+  151  clear
+  152  htop
+  153  sudo service mysql stop
+  154  htop
+  155  type foo
+  156  alias foo='echo "foo"; ls -lt --reverse .;'
+  157  foo
+  158  cd ..
+  159  cd..
+  160  cd ..
+  161  foo
+  162  cd -
+  163  ls
+  164  cd playground
+  165  ls
+  166  clear
+  167  type foo
+  168  unalias foo
+  169  type foo
+  170  ifconfig
+  171  sudo service apache2 start
+  172  sudo gedit
+  173  ifconfig
+  174  cal
+  175  df
+  176  ls -l
+  177  ls -l ./[D]*
+  178  ls -l [D]*
+  179  ls -al [D]*
+  180  gedit
+  181  gnome-terminal gedit
+  182  terminology
+  183  terminology gedit
+  184  bash
+  185  htop
+  186  IFCONFIG
+  187  ifconfig
+  188  apache2
+  189  clear
+  190  alias
+  191  la
+  192  clear
+  193  type sh
+  194  type bash
+  195  apache2
+  196  mysql
+  197  sudo mysql
+  198  mysql sudo mysql_secure_installation
+  199  sudo mysql_secure_installation
+  200  mysql -u shubham -p
+  201  mysql -u root -p
+  202  clear
+  203  htop
+  204  'shubham'
+  205  cd Desktop
+  206  ls
+  207  cd bash-playground
+  208  ls
+  209  cd playground
+  210  mkdir cats
+  211  cd ctas
+  212  cd cats
+  213  ls
+  214  df > df-output.txtx
+  215  less df-output.txt
+  216  ls
+  217  less df-output.txtx
+  218  mv df-output.txtxdf-output.txt
+  219  mv df-output.txtx df-output.txt
+  220  ls
+  221  cat
+  222  ifconfig
+  223  apropos pdf
+  224  sudo apt-get update
+  225  sudo apt-get install okular
+  226  sudo apt-get install epdfview
+  227  ls
+  228  cd Desktop
+  229  ls -l
+  230  cd bash-playground
+  231  ls
+  232  man cat
+  233  ls -l
+  234  cd playground
+  235  cd ..
+  236  mkdir playground-2
+  237  ls -l
+  238  cd playground-2
+  239  ls -l | less
+  240  ls -l > less
+  241  ls
+  242  rm -i less
+  243  htop
+  244  sudo service mysql stop
+  245  sudo swapoff -a
+  246  ls
+  247  htop
+  248  history
+  249  clear
+  250  df
+  251  fdf
+  252  df
+  253  htop
+  254  man uniq
+  255  df | uniq -c
+  256  man uniq
+  257  ls /bin
+  258  ls /usr/bin
+  259  ls /bin /usr/bin | sort | uniq -d | less
+  260  df | wc
+  261  ls /bin /usr/bin | sort | uniq -d | wc -l
+  262  ls /bin /usr/bin | sort | uniq | wc -l
+  263  ls /bin /usr/bin | sort | uniq -d| grep zip
+  264  ls /bin /usr/bin | sort | uniq | grep zip
+  265  ls /bin /usr/bin | sort | uniq | grep bin
+  266  ls /bin /usr/bin | sort | uniq | grep *bi*
+  267  ls /bin /usr/bin | sort | uniq | grep *bi
+  268  ls /bin /usr/bin | sort | uniq | grep \*bi
+  269  ls /bin /usr/bin | sort | uniq | grep /*bi
+  270  ls /bin /usr/bin | sort | uniq | grep /*b*
+  271  ls /bin /usr/bin | sort | uniq | grep b
+  272  man grep
+  273  cd Desktop
+  274  ls
+  275  cd bash-playground
+  276  ls
+  277  cd playground-2
+  278  ls
+  279  df | df-pipe-op.txt
+  280  df | cat > df-pipe-op.txt
+  281  less df-pipe-op.txt
+  282  df > df-pipe-op.txt
+  283  ls
+  284  less df-pipe-op.txt
+  285  htop
+  286  ls
+  287  ls | less
+  288  clear
+  289  s
+  290  df
+  291  cal
+  292  date
+  293  time
+  294  man time
+  295  time df
+  296  time ls / > myfiles.txt
+  297  less myfiles.txt
+  298  man ls
+  299  man tail
+  300  tail -f /var/log/messages
+  301  less /var/log/messages
+  302  ls -al /usr/bin | tee all_usr_bin_files.txt | grep zip
+  303  less all_usr_bin_files.txt
+  304  tee tee_op.txt
+  305  less tee_op.txt
+  306  ls -al /usr/bin | grep zip | grep tool
+  307  ls -al /usr/bin | grep tool
+  308  clear
+  309  echo /8
+  310  echo /*
+  311  /bin*
+  312  /bin/*
+  313  /bin/amd64/generic/*
+  314  echo /usr/*/share
+  315  echo /usr/*share
+  316  echo /usr/*/s*
+  317  man ls
+  318  ls -d .*
+  319  ls -d .[!.]*
+  320  echo .[!.]*
+  321  echo .*
+  322  df > f1
+  323  df > f2
+  324  df > f3
+  325  mkdir d1
+  326  mkdir d2
+  327  ls
+  328  echo .[!.]*
+  329  echo .[\!.]*
+  330  echo .[!.]*
+  331  echo .[!. ]*
+  332  ls .[!.]*
+  333  ls -d .[!.]*
+  334  ls -d .[^.]*
+  335  echo .[^.]*
+  336  echo .[^.] *
+  337  echo .[!. ] *
+  338  echo ~
+  339  $(5)
+  340  $((5))
+  341  echo $((5))
+  342  echo $((5+9%5))
+  343  echo $(5+9%5)
+  344  echo $((5**2*4))
+  345  echo {1..100}
+  346  echo {1..1000} > counting.txt
+  347  less counting.txt
+  348  echo {z..a}
+  349  echo {Z..a}
+  350  echo {Z..z}
+  351  echo {a..z}
+  352  echo {\u0000 \uFFFF}
+  353  echo {\u00000 \uFFFFF}
+  354  echo {A{1,2},B{a..c}}
+  355  mkdir Photos
+  356  cd Photos
+  357  mkdir {2009..2018}-{JAN..DEC}
+  358  echo {2009..2018}-{JAN..DEC}
+  359  mkdir {2009..2018}-{01..12}
+  360  ls
+  361  rm -i ./*JAN..DEC
+  362  rm -i ../*JAN..DEC
+  363  echo .
+  364  ls .
+  365  ls | grep JAN
+  366  ls | grep JAN| rm -i
+  367  echo ./*
+  368  echo ./*JAN*
+  369  rm ./*JAN*
+  370  rm -di ./*JAN*
+  371  ls
+  372  printenv
+  373  echo USER
+  374  echo $USER
+  375  ls ..
+  376  ls ../..
+  377  ls ../../..
+  378  echo ../../
+  379  printenv ../../sys_vars.txt
+  380  less ../../sys_vars.txt
+  381  ls
+  382  ls ../../
+  383  printenv > ../../sys_vars.txt
+  384  less ../../sys_vars.txt
+  385  which cp
+  386  ls -al $(which cp)
+  387  file $(ls -d /usr/bin/* | grep zip)
+  388  time file $(ls -d /usr/bin/* | grep zip)
+  389  ls
+  390  rm -di 2009*
+  391  ls
+  392  rm -d 2009*
+  393  ls
+  394  echo I earn $1100000000 daily.
+  395  \b
+  396  echo \b
+  397  echo \u
+  398  echo \B
+  399  history
+  400  history > ../../command-history-2018-06-16-1730.txt

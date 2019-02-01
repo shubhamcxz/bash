@@ -1,2 +1,10 @@
 Created on: JUL 12 2018 WED 1132
 CHAPTER 24
+
+# in .bashrc add
+export PATH=~/bin:$PATH
+
+. .bashrc #  reload .bashrc
+# .  command is synonymous to source(treats as input from file keyboard.)
+
+
